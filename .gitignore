@@ -1,0 +1,153 @@
+# Created by https://www.toptal.com/developers/gitignore/api/prestashop
+# Edit at https://www.toptal.com/developers/gitignore?templates=prestashop
+
+### Prestashop ###
+# Cache, temp and personal files
+
+/.htaccess
+*.log
+*.sh
+atelier42_info.php
+adminer-sdkfhk.php
+package-lock.json
+package.json
+gulpfile.js
+composer.json
+*.csv
+.idea
+.DS_Store
+*.sql
+*.sql.gz
+*.swp
+.env
+*.xml
+*.txt
+*.md
+phpstan.neon.dist
+*.cache 
+Install_PrestaShop.html
+LICENSES
+Makefile
+/docs/*
+autoload.php
+error500.html
+init.php
+images.inc.php
+
+# Cache
+/cache/*
+
+# Download
+/download/*
+
+# Images
+/img/*
+
+# Upload
+/upload/*
+
+/vendor/*
+/docs/phpdoc-sf/
+/composer.lock
+*.hot-update.js
+*.hot-update.json
+
+
+/private/autoupgrade/*
+!/private/autoupgrade/index.php
+!/private/autoupgrade/backup/index.php
+
+/private/backups/*
+!/private/backups/.htaccess
+
+/private/import/*
+!/private/import/.htaccess
+!/private/import/index.php
+
+/private/export/*
+!/private/export/.htaccess
+!/private/export/index.php
+
+# Downloaded RTL files
+/private/themes/default/css/bundle/default_rtl.css
+/private/themes/default/css/bundle/shared_rtl.css
+/private/themes/default/css/font_rtl.css
+/private/themes/default/css/overrides_rtl.css
+/private/themes/default/css/vendor/font-awesome/font-awesome_rtl.css
+/private/themes/default/css/vendor/nv.d3_rtl.css
+/private/themes/default/css/vendor/titatoggle-min_rtl.css
+/private/themes/default/public/theme_rtl.css
+/private/themes/new-theme/css/module/drop_rtl.css
+/private/themes/new-theme/css/right-sidebar_rtl.css
+
+themes/*/cache/*
+
+# Config
+
+config/*
+themes/*/config/settings_*.json
+app/*
+
+# Themes, modules and overrides
+
+modules/*
+themes/*/
+!themes/classic
+!themes/_core
+!themes/_libraries
+
+# Vendors and dependencies
+
+bower_components/
+node_modules/
+composer.phar
+php-cs-fixer
+.grunt/*
+
+# Translations and emails templates
+
+translations/*
+mails/*
+!mails/themes/
+!mails/_partials/
+themes/default-bootstrap/lang/*
+themes/default-bootstrap/modules/*/translations/*.php
+themes/default-bootstrap/mails/*
+!themes/default-bootstrap/mails/en/
+themes/default-bootstrap/modules/*/mails/*
+!themes/default-bootstrap/modules/*/mails/en
+
+# MISC
+
+*sitemap.xml
+/robots.txt
+
+# Symfony
+
+/bin/
+/app/Resources/geoip/GeoLite2-City.mmdb
+/app/Resources/translations/*
+!/app/Resources/translations/default
+/app/config/parameters.yml
+/app/config/parameters.php
+/build/
+/phpunit.xml
+/var/*
+/vendor/
+/web/bundles/
+/tools/
+/src/
+# End of https://www.toptal.com/developers/gitignore/api/prestashop
+
+*adminer-4.8.1-mysql.php
+.htaccess--*
+ *.csv
+ .idea
+ .DS_Store
+ *.sql
+ *.sql.gz
+ *.swp
+ .env
+ *.xml
+ *.txt
+ *.md
