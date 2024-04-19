@@ -1,0 +1,32 @@
+{#**
+ * Mollie       https://www.mollie.nl
+ *
+ * @author      Mollie B.V. <info@mollie.nl>
+ * @copyright   Mollie B.V.
+ * @license     https://github.com/mollie/PrestaShop/blob/master/LICENSE.md
+ *
+ * @see        https://github.com/mollie/PrestaShop
+ * @codingStandardsIgnoreStart
+ *#}
+
+{% extends '@PrestaShop/Admin/layout.html.twig' %}
+
+{% set help_link = false %}
+
+{% block content %}
+
+  {{ include('@Modules/mollie/views/templates/admin/Subscription/subscriptions-settings.html.twig') }}
+
+  <div class="row">
+    <div class="col">
+      {{ include('@PrestaShop/Admin/Common/Grid/grid_panel.html.twig', {'grid': currencyGrid }) }}
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block javascripts %}
+  {{ parent() }}
+
+  <script src="{{ asset('../modules/mollie/views/assets/compiled/subscription.bundle.js') }}"></script>
+{% endblock %}

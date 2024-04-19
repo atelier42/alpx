@@ -1,0 +1,77 @@
+.alcamultifaq-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.alcamultifaqs {
+  margin: 10px 0px;
+}
+
+#category .alcamultifaqs,
+#product .alcamultifaqs {
+  padding: 0px;
+}
+
+.alcamultifaq-accordion {
+  color: #1a051d;
+  background: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 22px 24px 22px 4px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  line-height: normal;
+  font-family: inherit;
+  position: relative;
+}
+
+.alcamultifaq-active,
+.alcamultifaq-accordion:hover {
+  background: #FFF;
+}
+
+.alcamultifaq-accordion:focus {
+  outline: 0px!important;
+}
+
+.alcamultifaq-panel {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.38;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-bottom: 1px solid #ece9f1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.alcamultifaq-panel p {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+} 
+
+.alcamultifaq-accordion:after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 12H5.92 12v6.08V12zm0 0V5.92 12h6.081H12z' stroke='%231A051D' stroke-width='1.5' fill='none' fill-rule='evenodd' stroke-dasharray='0,0'/%3E%3C/svg%3E%0A");
+  float: right;
+  margin-left: 5px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+.alcamultifaq-active:after {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.92 12h12.161' stroke='%231A051D' stroke-width='1.5' fill='none' fill-rule='evenodd' stroke-dasharray='0,0'/%3E%3C/svg%3E%0A");
+}
+
+.alcamultifaqs img {
+  margin-right: 29px;
+}

@@ -1,0 +1,41 @@
+/**
+ *   Copyright since 2009 ohmyweb!
+ *
+ *   @author    ohmyweb <contact@ohmyweb.fr>
+ *   @copyright since 2009 ohmyweb!
+ *   @license   Proprietary - no redistribution without authorization
+ */
+
+#configuration_form.loading {
+    position: relative;
+}
+#configuration_form.loading::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.6);
+    z-index: 10;
+}
+#configuration_form.loading::after {
+    font-family: 'Material Icons';
+    content: 'brightness_1';
+    color:#FFF;
+    font-size:50px;
+    z-index: 11;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    animation: tada linear 2s infinite ;
+    /*transform-origin: 50px 50px;*/
+}
+
+#cef_config {}
+#cef_config .banner_up {background-color:#E5E5E5;border-bottom:solid 1px #BEBEBE;height:35px;}
+#cef_config .admin_selector {list-style:none; padding:10px; margin:0;}
+#cef_config .admin_selector li {margin:5px 0;}
+#cef_config .banner_down {background-color:#E5E5E5;border-top:solid 1px #BEBEBE;height:35px;}
+#cef_config .banner_up span, #cef_config .banner_down span { line-height: 32px; }

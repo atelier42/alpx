@@ -1,0 +1,425 @@
+/** ok **/
+:root{
+    --grey1:#EFEFEF;
+    --grey2:#f8f8f8;
+}
+.breadcrumb.hidden-sm-down li a span,.breadcrumb.hidden-sm-down li  span {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color:var(--black,#181818);
+}
+#wrapper{
+    background: var(--white,#fff);
+}
+#main .page-header h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color:var(--black);
+    text-align: center;
+ }
+#authentication #content{
+    border: 1px solid var(--blue);
+    padding: 50px;
+    min-height: 500px;
+}
+#login-form label, #customer-form label,#customer-form .custom-checkbox label,#address label,#password label,#order-detail label,#checkout label{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    color:var(--black,#181818);
+    text-align: left;
+}
+#customer-form label,#address label{
+    text-align: left;
+    color:var(--blue);
+}
+#authentication #customer-form .form-group{
+    margin-bottom: 0;
+}
+#login-form input[type='text'],#login-form  input[type='email'],#login-form  input[type='password'],#customer-form input[type='text'],
+#customer-form input[type='email'],#customer-form input[type='password'],#address input[type='text'],#address #field-id_country,#address #field-phone,
+#password input[type='email'],#order-detail select,#order-detail textarea,#checkout input,#checkout select,#checkout textarea
+{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-radius: 30px;
+    border: 1.5px solid var(--grey1);
+    outline: none;
+    text-transform: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    color:var(--black);
+    background: var(--grey2);
+    height: 46px;
+}
+#order-detail select,#order-detail textarea,#checkout textarea{
+    border-radius: 0;
+}
+input[type='checkbox']{
+    height: inherit !important;
+}
+#order-detail textarea,#checkout textarea{
+    height: inherit;
+}
+#order-detail select option{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    color:var(--black,#181818);
+}
+#login-form #field-password,#customer-form #field-password,#customer-form #field-new_password{
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.input-group .input-group-btn > .btn[data-action="show-password"]{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--blue);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 12.5px;
+    outline: none;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: none;
+}
+.input-group.focus{
+    outline: none !important;
+}
+ #login-form .forgot-password a{
+    color: var(--grey);
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+}
+body#checkout section.checkout-step .forgot-password a{
+    margin-left:50px ;
+}
+#login-form .forgot-password a:hover,#authentication .no-account a:hover{
+    color: var(--blue);
+}
+#authentication .no-account a{
+    color: var(--grey);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+}
+#authentication #login-form #submit-login , #authentication #customer-form button.btn-primary,#checkout #login-form button.btn-primary,
+#checkout #customer-form button.btn-primary,#my-account .page-footer a.btn-primary,#identity button.btn-primary,#address button.btn-primary,
+#password form button[type='submit'],#order-detail button[type='submit'], #module-psgdpr-gdpr a.btn-primary,#checkout button[type='submit']{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--black);
+    background: var(--white);
+    text-transform: capitalize;
+    border-radius: 30px;
+    border: 0.5px solid var(--black);
+    padding: 10px 40px;
+    display: block;
+    margin:auto;
+    transition: all 0.3s;
+}
+#checkout .cart-grid-right .block-promo .promo-input + button{
+    display: inline-block;
+}
+#my-account .page-footer a.btn-primary{
+    display: inline-block;
+    text-decoration: none;
+}
+#authentication #login-form #submit-login:hover,#authentication #customer-form button.btn-primary:hover,#checkout #login-form button.btn-primary:hover,
+#checkout #customer-form button.btn-primary:hover,#my-account .page-footer a.btn-primary:hover,#identity button.btn-primary:hover,#address button.btn-primary:hover,
+#password form button[type='submit']:hover,#order-detail button[type='submit']:hover,#module-psgdpr-gdpr a.btn-primary:hover,#checkout button[type='submit']:hover{
+    color: var(--white);
+    background: var(--blue);
+    border: 0.5px solid var(--blue);
+}
+#module-psgdpr-gdpr .page_content a#exportDataToCsv {
+    margin-left: 15px;
+}
+#authentication .input-group.focus input::placeholder {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--blue);
+    opacity: 1; /* Firefox */
+    font-size: 14px;
+    font-weight: 500;
+}
+#authentication .register-form p, .form-control-comment,
+#checkout #checkout-personal-information-step li a.nav-link,#checkout .form-control-comment,#order-detail form p,#module-psgdpr-gdpr #content p,#checkout .js-address-form p a,#checkout .js-additional-information p,#checkout .js-additional-information dl dd{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--blue);
+}
+#order-detail form p,#module-psgdpr-gdpr #content p,#checkout .js-additional-information p {
+    color: var(--grey) !important;
+}
+#checkout .js-address-form p a{
+    color:var(--blue) !important;
+}
+#module-psgdpr-gdpr div.psgdprinfo17{
+    background:var(--grey2);
+}
+#authentication .register-form p{
+    text-align: center;
+    color:var(--grey);
+}
+#authentication .register-form p a,#checkout #checkout-personal-information-step li a.nav-link:hover{
+    color:var(--blue);
+    text-decoration: underline;
+}
+.page-authentication #content .login-form, .page-authentication #content .register-form{
+    max-width: 460px;
+    margin: 0 auto;
+}
+.custom-checkbox input[type="checkbox"]{
+    opacity: 1;
+    margin-top: 4px;
+}
+
+body#checkout .custom-checkbox span,#authentication .custom-checkbox span{
+    position: inherit;
+    border: 1px #8D8D8D solid;
+}
+.custom-checkbox input[type="checkbox"]{
+    opacity: 0;
+}
+body#checkout .custom-checkbox > label{
+    padding-left: 0;
+}
+.custom-radio input[type="radio"]:checked + span{
+    background-color: var(--blue);
+}
+.custom-checkbox input[type="checkbox"] + span .checkbox-checked{
+    color: var(--blue);
+    margin: -0.225rem;
+}
+#checkout #customer-form .form-informations span,#checkout .js-additional-information dl dt{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 500;
+}
+ #checkout dl{
+    background: var(--grey2);
+}
+#checkout #conditions-to-approve .custom-checkbox{
+    position: inherit;
+}
+#cta-terms-and-conditions-1,#cta-terms-and-conditions-2 ,#footer #cta-terms-and-conditions-1,#footer #cta-terms-and-conditions-2{
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+#footer #cta-terms-and-conditions-1,#footer #cta-terms-and-conditions-2{
+    color: #fff !important;
+}
+#index  #cta-terms-and-conditions-1:hover,#index #cta-terms-and-conditions-2:hover{
+    /*font-weight: 500 !important;*/
+}
+#checkout .js-additional-information dl dt,#checkout .js-additional-information dl dd{
+    color: var(--black);
+}
+body#checkout section.checkout-step.-reachable.-current .step-number{
+    background-color: var(--blue);
+}
+body#checkout section.checkout-step .step-title{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+}
+#my-account #content .links,#content #customer-form, .address-form .js-address-form,#addresses #content,#history #content,#password #content{
+    max-width: 1160px;
+    margin:0 auto;
+}
+.page-my-account #content .links a{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.page-my-account #content .links a span.link-item{
+    padding: 30px 10px;
+    border: 1px solid var(--grey1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page-my-account #content .links a span.link-item i{
+    color: var(--black);
+}
+.page-my-account #content .links a:hover{
+    color:var(--blue);
+}
+.page-my-account #content .links a:hover span.link-item {
+    border: 1px solid var(--black);
+}
+#identity .account-link,#addresses .account-link,#address .account-link,#history .account-link,#order-slip .account-link,#module-blockwishlist-lists .wishlist-footer-links a,#password .page-footer a,
+#order-detail .page-footer a.account-link,#module-psgdpr-gdpr a.account-link {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black) !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+#addresses .address-body h4,#addresses .addresses-footer a[data-link-action='add-address'],#history h6,#order-slip h6,#order-detail h3,#module-psgdpr-gdpr h2,#checkout .h4{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+}
+#addresses .address-body address,#order-detail address,#checkout address,#checkout #js-delivery .h6.carrier-name{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+}
+.address-footer a,#password p.send-renew-password-link{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--grey) !important;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    transition: all 0.3s;
+}
+.address-footer a:hover{
+    /*font-weight: 600;*/
+    color: var(--grey) !important;
+}
+#password p.send-renew-password-link{
+    color: var(--black);
+    text-align: center;
+}
+.page-addresses .address .address-body address,#checkout .address {
+    min-height: 11rem;
+}
+.page-addresses .address{
+    margin-bottom: 0;
+}
+#history table thead th,#order-detail table thead th{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 500;
+}
+#history table th[scope='row'] ,#history table td,#order-detail table td{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+}
+#history table td{
+    color: var(--grey);
+}
+#history table td a,#order-detail #order-infos a,#order-detail table td a,#module-psgdpr-gdpr .psgdprinfo17 p a,.custom-checkbox label a,#checkout a.cancel-address,#checkout label.js-terms a{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--red) !important;
+    font-size: 14px ;
+    font-weight: 500;
+    text-decoration-line: underline;
+    transition: all 0.3s;
+}
+#history table td a:hover,#order-detail #order-infos a:hover,#module-psgdpr-gdpr .psgdprinfo17 p a:hover,.custom-checkbox label a:hover,#checkout a.cancel-address:hover,#checkout label.js-terms a:hover{
+    font-size: 14px;
+    /*font-weight: 800;*/
+}
+#order-detail  table#order-products td a{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration-line: none;
+}
+#password form.forgotten-password section.form-fields .center-email-fields{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#password form.forgotten-password section.form-fields .center-email-fields label.required{
+    width: 100%;
+    text-align: center;
+}
+#password form.forgotten-password section.form-fields button[type='submit']{
+    margin-top: 20px;
+    text-transform: initial;
+    display: flex;
+    align-items: center;
+    min-height: 42px;
+    justify-content: center;
+}
+#order-detail #order-infos  strong{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 600;
+}
+#order-detail .page-order-detail h4{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+}
+#order-detail label{
+    text-align: right;
+}
+#order-detail a.button-primary{
+    display: none;
+}
+body#authentication .modal-content {
+    padding: 1.25rem;
+    background-color: var(--grey2);
+}
+body#checkout section.checkout-step .address-item{
+    background: var(--grey2);
+}
+body#checkout section.checkout-step .address-item.selected{
+    border:1.5px solid var(--blue);
+}
+@media(max-width: 767px){
+    .page-my-account #content .links a{
+        margin-bottom: 15px;
+    }
+    #main .page-header h1{
+        font-size: 20px;
+    }
+    #authentication #content{
+        padding: 1rem;
+    }
+    #authentication .register-form p, #authentication span.form-control-comment,#authentication div.form-control-comment{
+        font-size: 13px;
+    }
+    #authentication #login-form #submit-login, #authentication #customer-form button.btn-primary{
+        width: 100%;
+    }
+    body#checkout section.checkout-step .forgot-password{
+        margin-left:0 !important;
+    }
+    body#checkout section.checkout-step .forgot-password a{
+        margin-left:0;
+    }
+    body#checkout section.checkout-step .step-title{
+        font-size: 15px;
+    }
+    #my-account .page-footer a.btn-primary{
+        width: 100%;
+        text-align: center;
+    }
+    .psgdprgetdatabtn17{
+        float: none;
+        margin-bottom: 10px !important;
+
+    }
+}

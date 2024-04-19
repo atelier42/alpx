@@ -1,0 +1,165 @@
+#alcamultifaqs_json_cache {
+  margin-bottom: 15px;
+}
+
+#alcamultifaqsstructure {
+  margin-bottom: 15px;
+}
+
+#alcamultifaqsstructure ul:first-child {
+  padding-left: 0px;
+}
+
+#alcamultifaqsstructure li {
+  list-style: none;
+  margin-bottom: 5px;
+  font-size: 15px;
+  border: 2px solid #DEDEDE;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+#alcamultifaqsstructure li a {
+    color: #333 !important;
+}
+
+.alcamultifaqs-btn-action {
+  margin-left: 15px;
+}
+
+.json-cache-result {
+  display: none;
+}
+
+.alcaloader {
+  display: none;
+  border: 3px solid #ffffff4f;
+  border-top: 3px solid #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: alcaloader 2s linear infinite;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.alcabigloader {
+  display: none;
+  text-align: center;
+  font-weight: bold;
+  color: #666;
+  font-size: 16px;
+}
+
+.alcabigloader span {
+  margin-top: 14px;
+}
+
+.alcabigloader .alcaloaderaux {
+  border: 6px solid #cccccc4f;
+  border-top: 6px solid #9b9b9b;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: alcaloader 2s linear infinite;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.selector-faq {
+  margin-bottom: 20px;
+  border-bottom: 2px dashed #EEE;
+  padding-bottom: 20px;
+  min-height: 65px;
+}
+
+.selector-faq span.labeltxt {
+  font-weight: bold;
+  margin-right: 15px;
+  font-size: 14px;
+  min-width: 12%;
+  line-height: 35px;
+  margin-left: 15px;
+  text-align: right;
+}
+
+.selector-faq select {
+  display: inline-block;
+}
+
+.select2-container .select2-choice { height: 40px;border-color: #bbcdd2;line-height: 40px;background: #FFF; }
+.select2-container .select2-choice .select2-arrow { padding-top: 6px; }
+
+.alcamultifaqs-form-filter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.group-filter-item {
+  display: none;
+}
+
+@keyframes alcaloader {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* BEGIN PRODUCTS AJAX SEARCH */
+.ajax_search_results {
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  width: 98.5%;
+  position: absolute;
+  border: 1px solid #bbcdd2;
+  border-radius: 3px;
+  height: 250px;
+  background-color: #fff;
+  overflow: auto;
+  padding: 0px 4px;     
+}
+
+.ajax_search_results .delete {
+  display: none;
+}
+
+.products-ajax-search ul.nostyle {
+  padding: 0;
+  list-style: none;
+}
+
+.products-ajax-search ul.nostyle li {
+  border: 1px solid #bbcdd2;
+  padding: 0.3125rem !important;
+  margin-top: 0.3125rem !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  display: flex !important;
+  cursor: pointer;
+}
+
+.products-ajax-search ul.nostyle li .label {
+  color: #000;
+}
+
+.products-ajax-search ul.nostyle li .media-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.products-ajax-search ul.nostyle li .delete {
+  float: right;
+  cursor: pointer;
+}
+
+.products-ajax-search .media-left img {
+  max-width: 50px;
+  max-height: 50px;
+}
+/* END PRODUCTS AJAX SEARCH*/

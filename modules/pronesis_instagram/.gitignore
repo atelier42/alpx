@@ -1,0 +1,9 @@
+### VisualStudioCode ###
+.vscode/*
+config*.xml
+logs/*
+cache/*
+thumbnails/*
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history

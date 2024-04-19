@@ -1,0 +1,20 @@
+/**
+ * Mollie       https://www.mollie.nl
+ *
+ * @author      Mollie B.V. <info@mollie.nl>
+ * @copyright   Mollie B.V.
+ * @license     https://github.com/mollie/PrestaShop/blob/master/LICENSE.md
+ *
+ * @see        https://github.com/mollie/PrestaShop
+ * @codingStandardsIgnoreStart
+ */
+
+#subtab-AdminMollieModule_MTR > a > i.mi-mollie{
+    background: url('../../img/mollie.png') no-repeat scroll center center / contain transparent;
+    width: 16px;
+}
+
+#maintab-AdminMollieModule > a > i:before,
+#subtab-AdminMollieModule > a > i:before {
+    content: '\00a0';
+}

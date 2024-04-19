@@ -1,0 +1,55 @@
+/**
+* @author : Sathi
+* @copyright : Sathi 2020
+* @license : 2020
+*/
+
+section[class^='stadditionalproductlisting_'] {
+    background: #FFFFFF;
+    padding-top: 1.563rem;
+    margin: 0.5rem 0 1rem;
+    display: flow-root;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+    width: 100%;
+}
+section[class^='stadditionalproductlisting_'] .products {
+    justify-content: center !important;
+}
+section[class^='stadditionalproductlisting_']#products .products-section-title{
+    margin-bottom: 1rem;
+}
+section[class^='stadditionalproductlisting_'] .additional-product-listing-description {
+    margin: 0 0.625rem 1rem;
+}
+#left-column section[class^='stadditionalproductlisting_'] .products:not(.owl-carousel) .thumbnail-container,
+#right-column section[class^='stadditionalproductlisting_'] .products:not(.owl-carousel) .thumbnail-container,
+#left-column section[class^='stadditionalproductlisting_'] .products:not(.owl-carousel) .thumbnail-container .product-description,
+#right-column section[class^='stadditionalproductlisting_'] .products:not(.owl-carousel) .thumbnail-container .product-description,
+#left-column section[class^='stadditionalproductlisting_'] .products:not(.owl-carousel) .thumbnail-container .highlighted-informations,
+#right-column section[class^='stadditionalproductlisting_'] .products:not(.owl-carousel) .thumbnail-container .highlighted-informations
+{
+    width: 100%;
+}
+#left-column section[class^='stadditionalproductlisting_'] .products:not(.owl-carousel) .thumbnail-container .product-thumbnail img,
+#right-column section[class^='stadditionalproductlisting_'] .products:not(.owl-carousel) .thumbnail-container .product-thumbnail img
+{
+    margin: 0;
+    width: 100%;
+}
+
+#left-column section[class^='stadditionalproductlisting_'] .products.owl-carousel .thumbnail-container,
+#right-column section[class^='stadditionalproductlisting_'] .products.owl-carousel .thumbnail-container,
+#left-column section[class^='stadditionalproductlisting_'] .products.owl-carousel .thumbnail-container .product-description,
+#right-column section[class^='stadditionalproductlisting_'] .products.owl-carousel .thumbnail-container .product-description,
+#left-column section[class^='stadditionalproductlisting_'] .products.owl-carousel .thumbnail-container .highlighted-informations,
+#right-column section[class^='stadditionalproductlisting_'] .products.owl-carousel .thumbnail-container .highlighted-informations
+{
+    width: 228px;
+}
+#left-column section[class^='stadditionalproductlisting_'] .products.owl-carousel .thumbnail-container .product-thumbnail img,
+#right-column section[class^='stadditionalproductlisting_'] .products.owl-carousel .thumbnail-container .product-thumbnail img
+{
+    margin: 0;
+    width: 228px;
+}
+section[class^='stadditionalproductlisting_'] .owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}section[class^='stadditionalproductlisting_'] .owl-carousel{display:none;width:100%;z-index:1}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;touch-action:manipulation;-moz-backface-visibility:hidden}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-item img{display:block;}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}section[class^='stadditionalproductlisting_'] .no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-nav button.owl-next span,.owl-carousel .owl-nav button.owl-prev span{font-size: 40px;color: #fff;}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-nav button.owl-next{right: 0;}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-nav button.owl-prev{left: 0;}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-nav button.owl-next,section[class^='stadditionalproductlisting_'] .owl-carousel .owl-nav button.owl-prev{outline: none;position: absolute;top: 35%;background:#D9D9D9;border: 3px solid #fff;color:inherit;padding:0!important;font:inherit;width: 40px; height: 40px; border-radius: 50%;}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-dots{position: absolute;bottom: 0px;width: 100%;text-align: center;}section[class^='stadditionalproductlisting_'] .owl-carousel button.owl-dot{outline: none;border-radius: 50%;background:#CCCCCC;color:inherit;border:none;padding:0!important;font:inherit;width: 15px; height: 15px;margin: 2px;}section[class^='stadditionalproductlisting_'] .owl-carousel.owl-loading{opacity:0;display:block}section[class^='stadditionalproductlisting_'] .owl-carousel.owl-hidden{opacity:0}section[class^='stadditionalproductlisting_'] .owl-carousel.owl-refresh .owl-item{visibility:hidden}section[class^='stadditionalproductlisting_'] .owl-carousel.owl-drag .owl-item{-ms-touch-action:pan-y;touch-action:pan-y;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}section[class^='stadditionalproductlisting_'] .owl-carousel.owl-grab{cursor:move;cursor:grab}section[class^='stadditionalproductlisting_'] .owl-carousel.owl-rtl{direction:rtl}section[class^='stadditionalproductlisting_'] .owl-carousel.owl-rtl .owl-item{float:right}section[class^='stadditionalproductlisting_'] .owl-carousel .animated{animation-duration:1s;animation-fill-mode:both}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-animated-in{z-index:0}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-animated-out{z-index:1}section[class^='stadditionalproductlisting_'] .owl-carousel .fadeOut{animation-name:fadeOut}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}section[class^='stadditionalproductlisting_'] .owl-height{transition:height .5s ease-in-out}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-item .owl-lazy:not([src]),.owl-carousel .owl-item .owl-lazy[src^=""]{max-height:0}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-item img.owl-lazy{transform-style:preserve-3d}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;transition:transform .1s ease}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-video-play-icon:hover{-ms-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;transition:opacity .4s ease}section[class^='stadditionalproductlisting_'] .owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}

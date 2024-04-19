@@ -1,0 +1,99 @@
+.alcamultifaq-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #181818;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.alcamultifaqs {
+  margin: 10px 0px;
+}
+
+#category .alcamultifaqs,
+#product .alcamultifaqs {
+  padding: 0px;
+}
+
+.alcamultifaq-accordion {
+  background: #FFF;
+  cursor: pointer;
+  padding: 22px 24px 22px 4px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: relative;
+  padding-left: 63px;
+  color: var(--black, #181818);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.alcamultifaq-active,
+.alcamultifaq-accordion:hover {
+  background: #FFF;
+}
+
+.alcamultifaq-accordion:focus {
+  outline: 0px!important;
+}
+
+.alcamultifaq-panel {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.38;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.alcamultifaqs {
+  max-width: 953px;
+  margin-bottom: 100px;
+  margin-top: 23px !important;
+}
+
+.alcamultifaq-panel p {
+  color: #8D8D8D;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+} 
+
+.alcamultifaq-accordion:after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 12H5.92 12v6.08V12zm0 0V5.92 12h6.081H12z' stroke='%231A051D' stroke-width='1.5' fill='none' fill-rule='evenodd' stroke-dasharray='0,0'/%3E%3C/svg%3E%0A");
+  margin-left: 0;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background-color: #EFEFEF;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 25px;
+}
+
+.alcamultifaq-active:after {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.92 12h12.161' stroke='%23fff' stroke-width='1.5' fill='none' fill-rule='evenodd' stroke-dasharray='0,0'/%3E%3C/svg%3E%0A");
+  background-color: var(--red);
+}
+
+.alcamultifaqs img {
+  margin-right: 29px;
+}
+@media (max-width: 767px) {
+  .alcamultifaqs {
+    margin-bottom: 0px;
+  }
+}

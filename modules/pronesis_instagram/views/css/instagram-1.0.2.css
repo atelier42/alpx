@@ -1,0 +1,72 @@
+.instagram-feed {
+  position: relative;
+}
+.instagram-feed-carousel .instagram-feed-carousel-item a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 100%;
+}
+.instagram-feed-carousel .instagram-feed-carousel-item figcaption {
+  display: none;
+}
+.instagram-feed-carousel .instagram-feed-carousel-item a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #000000;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  margin-top: -13px;
+  margin-left: -13px;
+  animation: spin 2s linear infinite;
+  z-index: 1;
+}
+.instagram-feed-carousel .instagram-feed-carousel-item a img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.instagram-feed-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.instagram-feed-arrow.slick-disabled {
+  opacity: .3;
+}
+.instagram-feed-arrow img {
+  width: 30px;
+  height: auto;
+}
+.instagram-feed-arrow-left {
+  left: -30px;
+}
+.instagram-feed-arrow-right {
+  right: -30px;
+}
+@media (max-width: 575px) {
+  .instagram-feed {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

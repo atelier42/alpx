@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_347da0da598694c57fff1cbaa197d615'] = 'gerelateerde producten';
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_7c27aabe57683124cfdf3b7daf46789d'] = 'Maakt het mogelijk om gerelateerde producten toevoegen en verwijderen bij elk product';
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_876f23178c29dc2552c0b48bf23cd9bd'] = 'Weet u zeker dat u wilt verwijderen';
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_0f40e8817b005044250943f57a21c5e7'] = 'Geen naam voorzien';
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_cd8af1dd8d22a73783e915b6f06da001'] = 'Eenvoudig product - Geen combinaties';
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_d1ae6863be68f1b64a61b51c836a2e6f'] = 'succesvol geupdatet';
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_480fb2275f5df50b33e0796ba52ba2a3'] = 'Nieuwe instellingen Tab voor aanverwante producten wordt gemaakt in de catalogus => Producten => Bewerken een Product ';
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_6f6e4d79f2cad01d5878a22f1b400bc4'] = 'Shop Configuration';
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_9d55fc80bbb875322aa67fd22fc98469'] = 'Shop vereniging';
+$_MODULE['<{relatedproducts}prestashop>relatedproducts_c9cc8cce247e49bae79f15173ce97354'] = 'opslaan';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_bf66c3d5dfd015c6a24c8ecaad8a3c78'] = 'Het product is toegevoegd aan de lijst';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_396e93db135c35849b8b366e2eefd605'] = 'Product al toegevoegd aan de lijst';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_f2a6c498fb90ee345d997f888fce3b18'] = 'Verwijder';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_347da0da598694c57fff1cbaa197d615'] = 'gerelateerde producten';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_c5f17f7ca53d9225478fdbfd0a5583ac'] = 'Zoek naar een product';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_b9208b03bcc9eb4a336258dcdcb66207'] = 'combinaties';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_ee08b4d37ca36b580be96fe168887314'] = 'Vergeet niet om je lijst met producten op te slaan';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_dcf85ce3274566e9b5a8730400afe9b7'] = 'Voeg dit product toe';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_144e7727c45eaa4e1ef997ac8e3479bf'] = 'Verwante Producten Lijst';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_97f08a40f22a625d0cbfe03db3349108'] = 'Product-ID';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_e7ec1ee72c6d0c0bf0d9140822b0f06a'] = 'combinatie ID';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_b9aefa40a54680bb258f9f9569290fae'] = 'Product-ID';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_06df33001c1d7187fdd81ea1f5b277aa'] = 'acties';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_ea4788705e6873b424c65e91c2846b19'] = 'Annuleer';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_c9cc8cce247e49bae79f15173ce97354'] = 'opslaan';
+$_MODULE['<{relatedproducts}prestashop>adminrelatedproducts_9ea67be453eaccf020697b4654fc021a'] = 'Opslaan en blijf';
+$_MODULE['<{relatedproducts}prestashop>relatedproductstab_347da0da598694c57fff1cbaa197d615'] = 'gerelateerde producten';
+$_MODULE['<{relatedproducts}prestashop>related_products_347da0da598694c57fff1cbaa197d615'] = 'gerelateerde producten';
+$_MODULE['<{relatedproducts}prestashop>related_products_2d0f6b8300be19cf35e89e66f0677f95'] = 'Voeg toe aan winkelmandje';
+$_MODULE['<{relatedproducts}prestashop>related_products_16bfbf9c462762cf1cba4134ec53c504'] = 'laden';
+$_MODULE['<{relatedproducts}prestashop>related_products_6e3357884ba4505d6800a93e8cec94bc'] = 'Selecteer de gerelateerd product';

@@ -90,8 +90,7 @@ app/*
 
 # Themes, modules and overrides
 
-modules/*
-themes/*/
+
 !themes/classic
 !themes/_core
 !themes/_libraries

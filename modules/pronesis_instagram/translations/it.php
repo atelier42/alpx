@@ -1,0 +1,37 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_f203be3d59ff72777bd5f6be32b90cb1'] = 'Immagini Instagram';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_ae5fa71fb300ea2ae32420353ed008f3'] = 'Pubblica immagini e video dalla tua pagina Instagram';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_e04a8607d8301805055db671117957f3'] = 'Il token di accesso non è valido!';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_56396a5a21119820005c6669f61be2e8'] = 'Token di accesso, nel manuale è indicato come ottenerlo';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_77ef292794f91ad74b0d0f1e4b0643ff'] = 'Token di accesso';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_4216519d430855b73589d73184cc0c79'] = 'Numero immagini';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_3acfa12de3a527d970873e615ff1f05f'] = 'Numero di immagini che verrà mostrato';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_691d502cfd0e0626cd3b058e5682ad1c'] = 'elementi';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_f828eb019f081ad0abbf2ecde52bf54d'] = 'Durata cache';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_896c55cc5e46fab38ce9f51ebf7bfcd3'] = 'ora';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_73cdddd7730abfc13a55efb9f5685a3b'] = 'ore';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_628b7db04235f228d40adc671413a8c8'] = 'giorno';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_bbd0e310e781084658ac336478c8c26d'] = 'Mostra in home page';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_ecf00b15f5330ad66f5cb61d1e2da7ab'] = 'Mostra in posizione custom';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_8e56365dbf2576dfa1979d1c4e8b373d'] = 'Debug';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_35b60040a6bdd986d687b60815a3469a'] = 'Rendi il file di log più completo';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_c9cc8cce247e49bae79f15173ce97354'] = 'Salva';
+$_MODULE['<{pronesis_instagram}prestashop>pronesis_instagram_c888438d14855d7d96a2724ee9c306bd'] = 'Configurazione aggiornata';
+$_MODULE['<{pronesis_instagram}prestashop>configure_fb2819bc418c6b3a0c30230c3d2e14f3'] = 'Immagini Instagram';
+$_MODULE['<{pronesis_instagram}prestashop>configure_a0f6e4350fda1867c2f2922c9d665ef9'] = 'Mostra le immagini della tua pagina Instagram';
+$_MODULE['<{pronesis_instagram}prestashop>configure_d2126da975d5b9a5b846efaf57d3fd53'] = 'Configurazione generale';
+$_MODULE['<{pronesis_instagram}prestashop>configure_ec8b1c5ad7dc06f0af9f011a10dd4725'] = 'Anteprima';
+$_MODULE['<{pronesis_instagram}prestashop>configure_6a26f548831e6a8c26bfbbd9f6ec61e0'] = 'Aiuto';
+$_MODULE['<{pronesis_instagram}prestashop>configure_34b6cd75171affba6957e308dcbd92be'] = 'Versione';
+$_MODULE['<{pronesis_instagram}prestashop>feed_00b4c18306690edb3bf93516f1b53d15'] = 'Forza aggiornamento';
+$_MODULE['<{pronesis_instagram}prestashop>feed_ef55146e27d9d035e90bad8978970bf2'] = 'Nessuna immagini! Verifica il token di accesso';
+$_MODULE['<{pronesis_instagram}prestashop>help_6a26f548831e6a8c26bfbbd9f6ec61e0'] = 'Aiuto';
+$_MODULE['<{pronesis_instagram}prestashop>help_458768688313f7b54067a8201fd5286a'] = 'Documentazione modulo';
+$_MODULE['<{pronesis_instagram}prestashop>help_c0ae39ae18534561a868e80ef008a27d'] = 'Accesso ai log:';
+$_MODULE['<{pronesis_instagram}prestashop>feed16_bd61d9128585347d96f5da1707d5af9d'] = 'Post Instagram';
+$_MODULE['<{pronesis_instagram}prestashop>feed16_e0d628b37d551f5765bbefbd8564b837'] = 'Vai ad Instagram';
+$_MODULE['<{pronesis_instagram}prestashop>feed17_bd61d9128585347d96f5da1707d5af9d'] = 'Immagini Instagram';
+$_MODULE['<{pronesis_instagram}prestashop>feed17_e0d628b37d551f5765bbefbd8564b837'] = 'Vai ad Instagram';

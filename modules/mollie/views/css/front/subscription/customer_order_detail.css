@@ -1,0 +1,27 @@
+/**
+ * Mollie       https://www.mollie.nl
+ *
+ * @author      Mollie B.V. <info@mollie.nl>
+ * @copyright   Mollie B.V.
+ * @license     https://github.com/mollie/PrestaShop/blob/master/LICENSE.md
+ *
+ * @see        https://github.com/mollie/PrestaShop
+ * @codingStandardsIgnoreStart
+ */
+.box {
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.addresses {
+    margin: 0 -.9375rem
+}
+
+@media only screen and (max-width: 991px) {
+  .recurring-method-form .product-info .product-img {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

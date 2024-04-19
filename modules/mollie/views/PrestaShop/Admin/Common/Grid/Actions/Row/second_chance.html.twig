@@ -1,0 +1,22 @@
+{#**
+ * Mollie       https://www.mollie.nl
+ *
+ * @author      Mollie B.V. <info@mollie.nl>
+ * @copyright   Mollie B.V.
+ * @license     https://github.com/mollie/PrestaShop/blob/master/LICENSE.md
+ *
+ * @see        https://github.com/mollie/PrestaShop
+ * @codingStandardsIgnoreStart
+ *#}
+
+{% set route_params = { (action.options.route_param_name) : (record[action.options.route_param_field]) } %}
+
+<div class="mollie-icon-container">
+    <a class="material-icons"
+       href="{{ path(action.options.route, route_params ) }}"
+    >
+        credit_card
+    </a>
+
+    <div style="right: 30px" class="mollie-message-container">{{ action.name }}</div>
+</div>
